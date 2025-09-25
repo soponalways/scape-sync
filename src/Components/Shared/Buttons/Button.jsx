@@ -7,7 +7,7 @@ const Button = ({ label, onClick, className, variant = "primary" }) => {
         danger: 'bg-red-500 text-white hover:bg-red-600',
     };
     return (
-        <button onClick={onClick} className={`rounded-sm md:rounded-md lg:rounded-lg cursor-pointer hover:scale-105 transition-all transform duration-300 font-public-sans md:font-semibold font-medium lg:font-bold ${classes[variant]} ${className}`}>
+        <button onClick={onClick} className={`rounded-sm md:rounded-md lg:rounded-lg cursor-pointer hover:scale-105 transition-all transform duration-300 font-public-sans md:font-semibold font-medium lg:font-bold drop-shadow-xl drop-shadow-[#39A432]/24 ${classes[variant]} ${className}`}>
             {label}
         </button>
     );
