@@ -16,7 +16,7 @@ const MainLayout = () => {
             </main>
 
             {/* Footer Section */}
-            <footer>
+            <footer className='bg-[#0F3B34]'>
                 <Footer />
             </footer>
         </div>
